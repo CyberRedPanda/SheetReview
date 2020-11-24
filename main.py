@@ -64,7 +64,7 @@ class Correct_Answers:
 		self.discovered_at = str(today_date)
 		self.loaded_at = date 
 		self.final = item.lower()
-		self.path_to_file = "<REDACTED>" + today_date_for_path_1 + "/" + today_date_for_path_2 + "_" + website.lower() + "_" + date_reformatted + "_reformatted.txt"
+		self.path_to_file = "<REDACTED>" + today_date_for_path_1 + "/" + today_date_for_path_2 + "_" + site.lower() + "_" + date_reformatted + "_reformatted.txt"
 
 good_to_go = True
 answers = Correct_Answers()
